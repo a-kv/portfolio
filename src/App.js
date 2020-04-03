@@ -1,26 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Header from "./components/Header/Heder";
+import Main from "./components/Main/Main";
+import Skils from "./components/Skils/Skils";
+import Projects from "./components/Progects/Projects";
+import Slogan from "./components/Slogan/Slogan";
+import Contacts from "./components/Contacts/Contacts";
+import Footer from "./components/Footer/Footer";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+function App(props) {
+    return (
+        <div className="App">
+            <div className="portfolio">
+                <Header/>
+                <Main/>
+                <Skils/>
+                <Projects/>
+                <Slogan/>
+                <Contacts/>
+                <Footer/>
+            </div>
+        </div>
+    );
 }
 
 export default App;
