@@ -1,22 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5347307a.chunk.css",
-    "main.js": "/portfolio/static/js/main.61aab501.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.61aab501.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.6cc9679e.chunk.css",
+    "main.js": "/portfolio/static/js/main.1b5a428c.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.1b5a428c.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.e387a7d1.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.e387a7d1.js.map",
-    "static/js/2.c819aff4.chunk.js": "/portfolio/static/js/2.c819aff4.chunk.js",
-    "static/js/2.c819aff4.chunk.js.map": "/portfolio/static/js/2.c819aff4.chunk.js.map",
+    "static/js/2.f2fc75f3.chunk.js": "/portfolio/static/js/2.f2fc75f3.chunk.js",
+    "static/js/2.f2fc75f3.chunk.js.map": "/portfolio/static/js/2.f2fc75f3.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.958b833b1d58c6d4a229715bf8fe7fc1.js": "/portfolio/precache-manifest.958b833b1d58c6d4a229715bf8fe7fc1.js",
+    "precache-manifest.ec7aeb05a9f2b0123cd96dfe1b790917.js": "/portfolio/precache-manifest.ec7aeb05a9f2b0123cd96dfe1b790917.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.5347307a.chunk.css.map": "/portfolio/static/css/main.5347307a.chunk.css.map",
-    "static/js/2.c819aff4.chunk.js.LICENSE.txt": "/portfolio/static/js/2.c819aff4.chunk.js.LICENSE.txt"
+    "static/css/main.6cc9679e.chunk.css.map": "/portfolio/static/css/main.6cc9679e.chunk.css.map",
+    "static/js/2.f2fc75f3.chunk.js.LICENSE.txt": "/portfolio/static/js/2.f2fc75f3.chunk.js.LICENSE.txt",
+    "static/media/iconmonstr-github-3.svg": "/portfolio/static/media/iconmonstr-github-3.96f4c70d.svg",
+    "static/media/iconmonstr-linkedin-3.svg": "/portfolio/static/media/iconmonstr-linkedin-3.5b238434.svg",
+    "static/media/iconmonstr-telegram-3.svg": "/portfolio/static/media/iconmonstr-telegram-3.7e72be6a.svg",
+    "static/media/iconmonstr-vk-3.svg": "/portfolio/static/media/iconmonstr-vk-3.7e08802c.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.e387a7d1.js",
-    "static/js/2.c819aff4.chunk.js",
-    "static/css/main.5347307a.chunk.css",
-    "static/js/main.61aab501.chunk.js"
+    "static/js/2.f2fc75f3.chunk.js",
+    "static/css/main.6cc9679e.chunk.css",
+    "static/js/main.1b5a428c.chunk.js"
   ]
 }
