@@ -8,8 +8,6 @@ import Slogan from "./components/Slogan/Slogan";
 import Contacts from "./components/Contacts/Contacts";
 import Footer from "./components/Footer/Footer";
 
-// 1. Можем ли мы создать гобальные стили для штук типа container?
-// 2. Как при изменении ширины вытянуть все в один столбец
 
 function App(props) {
     return (
@@ -22,10 +20,8 @@ function App(props) {
                 <Slogan/>
                 <Contacts/>
                 <Footer/>
-
             </div>
         </div>
     );
 }
-// flex-wrap
 export default App;
