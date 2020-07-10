@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Header from "./components/Header/Heder";
 import Main from "./components/Main/Main";
-import Skils from "./components/Skils/Skils";
+import Skills from "./components/Skils/Skills";
 import Projects from "./components/Progects/Projects";
 import Slogan from "./components/Slogan/Slogan";
 import Contacts from "./components/Contacts/Contacts";
@@ -139,7 +139,7 @@ function App(props) {
             <div className="portfolio">
                 <Header/>
                 <Main/>
-                <Skils/>
+                <Skills/>
                 <Projects/>
                 <Slogan/>
                 <Contacts/>

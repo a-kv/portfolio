@@ -37,6 +37,7 @@ code {
 }
 
 .btn {
+
     display: flex;
     position: relative;
     font-size: 16px;
@@ -47,6 +48,7 @@ code {
     background-color: #1f1f20;
     color: white;
     z-index: 0;
+
 }
 
 .btn:before {
@@ -63,6 +65,9 @@ code {
     height: 0px;
     border-bottom: 35px solid #19c7a3;
     transition: 0.2s;
+}
+.btn:focus {
+    outline: none;
 }
 
 
