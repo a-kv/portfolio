@@ -1,0 +1,53 @@
+.projectContainer {
+    width: 300px;
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    height: max-content;
+    position: relative;
+}
+.projectItem{
+
+}
+.projectImg {
+    height: 280px;
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+.projectImg:hover {
+    opacity: 0.7;
+    transition: 0.3s;
+}
+.projectInfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: #28282a;
+    width: 280px;
+}
+.projectButton {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    }
+
+.btnShow{
+    composes: btn from '../../../index.css';
+    background-color: #19c7a3;
+    width: 170px;
+    height: 35px;
+
+
+}
+.btnShow:hover{
+    font-size: 1.3em;
+    transition: 0.2s;
+
+}
+
+

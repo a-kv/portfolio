@@ -1,0 +1,26 @@
+.slogan {
+    height: 120px;
+    background-color: #28282a;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    text-align: center;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    height: 100px;
+}
+
+.sloganTitle {
+    composes: containerTitle from '../../index.css';
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonHire {
+    composes: btn from '../../index.css';
+    background-color: #28282a;
+}

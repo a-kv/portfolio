@@ -1,0 +1,22 @@
+.formControl.error input,
+.formControl.error textarea
+{
+    box-shadow: 0 0 20px red;
+    transition: 0.5s;
+    /*border: solid red 2px;*/
+}
+
+.formControl.error span
+{
+
+    color: red;
+}
+.formSummaryError {
+    /*border: red 1px solid;*/
+    padding: 5px;
+    /*color: darkred;*/
+    box-shadow: 0 0 20px red;
+    transition: 0.5s;
+}
+/*box-shadow: 0 0 20px #6ab2af;*/
+/*transition: 0.5s;*/

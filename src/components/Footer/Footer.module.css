@@ -1,0 +1,77 @@
+.footer {
+    height: 200px;
+    background-color: #28282a;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footerTitle {
+    composes: containerTitle from '../../index.css';
+}
+
+.footerTitle:after {
+    border-bottom: 1px solid #28282a;
+}
+
+.socialBlock {
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.link {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #19c7a3;
+    transition: 0.2s;
+}
+
+.icon img {
+    height: 50px;
+}
+
+.law {
+    display: flex;
+    height: 35px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 626px) {
+    .socialBlock {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 340px) {
+    .icon img {
+        height: 20px;
+    }
+
+}
